@@ -10,6 +10,10 @@ class CustomText(models.Model):
     title = models.CharField(
         max_length=150,
     )
+    jhkhk = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
 
     def __str__(self):
         return self.title
@@ -25,18 +29,6 @@ class CustomText(models.Model):
 
 class HomePage(models.Model):
     body_yu_yrtes = models.TextField(
-        blank=True,
-    )
-    abdcd = models.BigIntegerField(
-        null=True,
-        blank=True,
-    )
-    hjjhjhkj = models.BigIntegerField(
-        null=True,
-        blank=True,
-    )
-    uriyriw = models.BigIntegerField(
-        null=True,
         blank=True,
     )
 
