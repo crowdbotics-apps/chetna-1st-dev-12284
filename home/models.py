@@ -27,6 +27,18 @@ class HomePage(models.Model):
     body_yu_yrtes = models.TextField(
         blank=True,
     )
+    abdcd = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
+    hjjhjhkj = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
+    uriyriw = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
 
     @property
     def api(self):
